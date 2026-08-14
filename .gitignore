@@ -22,3 +22,7 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# All markdown files are ignored to avoid committing stray notes or documentation. If you want to commit a markdown file, add it to this list.
+*.md
+!README.md
